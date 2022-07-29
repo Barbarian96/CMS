@@ -1,0 +1,21 @@
+<li class="nav-item " id="name" style="margin-left: 5px;">
+                    <form method="post">
+                        <div class="dropdown open">
+                            <button class="btn amit dropdown-toggle" type="button" id="triggerId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: orange;">
+                                Hello <?php echo $_SESSION['firstname'] ?>!
+                            </button>
+                            <div class="dropdown-menu bg-dark text-light" aria-labelledby="triggerId">
+                                <button type="submit" name="write_a_post" class="dropdown-item text-light onhover">Write a post</button>
+                                <button type="submit" name="logout" class="dropdown-item text-light onhover">Logout</button>
+                            </div>
+                        </div>
+                    </form>
+                </li>
+                <li class="nav-item">
+                    <form method="POST">
+                        <button type="submit" name="mypost" class="btn amit" id="mypost" style="">
+                            My Post
+                        </button>
+                    </form>
+
+                </li>
