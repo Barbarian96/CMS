@@ -1,5 +1,5 @@
 ﻿
- ##!! UNDER DEVELOPMENT !!
+ ## !! UNDER DEVELOPMENT !!
  
  # Blog-Web-App
 Bloging System Website using basic PHP, SQL, HTML & CSS. You can use any one of XAMPP, WAMP or LAMP server to run the Web App on your local machine.
